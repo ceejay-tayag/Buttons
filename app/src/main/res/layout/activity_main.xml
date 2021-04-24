@@ -26,6 +26,7 @@
         android:layout_height="50dp"
         android:layout_marginTop="100dp"
         android:hint="first number"
+        android:inputType="numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/addTwoNumbers" />
@@ -36,6 +37,7 @@
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
         android:hint="second number"
+        android:inputType="numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/firstNumber" />
@@ -46,6 +48,8 @@
         android:layout_height="50dp"
         android:layout_marginTop="100dp"
         android:hint="Result"
+        android:textSize="25sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/secondNumber" />
